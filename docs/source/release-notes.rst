@@ -25,6 +25,7 @@ account for your own schedule planning.
    Corda 3 and Corda 4 will require that Corda 3 users are on the latest patchlevel release.
 
 .. contents::
+  :name: release
 
 Changes for developers in Corda 4
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -1,8 +1,6 @@
 How to contribute
 =================
 
-.. contents::
-
 Identifying an area to contribute
 ---------------------------------
 There are several ways to identify an area where you can contribute to Corda:
@@ -131,7 +129,7 @@ You should merge the changes back into Corda as follows:
       Pull Request that you agree to it.
 
   * Add a clear description of the purpose of the PR
-  
+
   * Add the following statement to confirm that your contribution is your own original work: "I hereby certify that my contribution is in
     accordance with the Developer Certificate of Origin (https://developercertificate.org/)."
 

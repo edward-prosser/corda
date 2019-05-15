@@ -29,67 +29,55 @@ We look forward to seeing what you can do with Corda!
 .. _`download the PDF`: _static/corda-developer-site.pdf
 
 .. toctree::
-   :maxdepth: 1
+  :hidden:
+  :maxdepth: 1
+  :name: release
 
-   release-notes
-   app-upgrade-notes
-   node-upgrade-notes
-   corda-api
-   cheat-sheet
-
-.. toctree::
-   :caption: Development
-   :maxdepth: 1
-
-   quickstart-index.rst
-   key-concepts.rst
-   building-a-cordapp-index.rst
-   tutorials-index.rst
-   tools-index.rst
-   node-internals-index.rst
-   component-library-index.rst
-   serialization-index.rst
-   json.rst
-   troubleshooting.rst
+  self
+  release-notes
+  upgrading-apps-version
+  upgrading-node-version
 
 .. toctree::
-   :caption: Operations
-   :maxdepth: 2
+  :hidden:
+  :maxdepth: 2
+  :caption: Development
+  :name: development
 
-   corda-nodes-index.rst
-   corda-networks-index.rst
-   docker-image.rst
-   azure-vm.rst
-   aws-vm.rst
-   loadtesting.rst
-   cli-application-shell-extensions.rst
+  development/cordapp-quickstart
+  development/cordapps-index
+  development/cordapp-networks
+  development/cordapp-samples
+  development/api-ref
+  development/troubleshooting
 
-.. Documentation is not included in the pdf unless it is included in a toctree somewhere
+.. toctree::
+  :hidden:
+  :maxdepth: 2
+  :caption: Operations
+  :name: operations
 
-.. conditional-toctree::
-   :caption: Corda Network
-   :maxdepth: 2
-   :if_tag: htmlmode
+  operations/operations-quickstart
+  operations/operations-nodes
+  operations/operations-networks
+  operations/operations-upgrade
 
-   corda-network/index.md
-   corda-network/UAT.md
+.. toctree::
+  :hidden:
+  :maxdepth: 2
+  :caption: The Corda Network
+  :name: tcn
 
-.. conditional-toctree::
-   :caption: Contents
-   :maxdepth: 2
-   :if_tag: pdfmode
+  the-corda-network/index
+  the-corda-network/UAT
 
-   deterministic-modules.rst
-   release-notes.rst
-   changelog.rst
+.. toctree::
+  :hidden:
+  :maxdepth: 2
+  :caption: Participate
+  :name: participate
 
-.. conditional-toctree::
-   :caption: Participate
-   :maxdepth: 2
-   :if_tag: htmlmode
-
-   contributing-index.rst
-   deterministic-modules.rst
-   design/design-docs-index.rst
-   changelog
-
+  contributing
+  deterministic-modules
+  design/design-docs-index
+  changelog
