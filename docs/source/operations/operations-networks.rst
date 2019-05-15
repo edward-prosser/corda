@@ -1,14 +1,13 @@
 Corda networks
 ==============
 
-Corda networks are wizzy and fast and clever.
+Corda networks are wizzy and fast and clever. They include things like
 
 .. toctree::
   :hidden:
-  :maxdepth: 2
-  :name: ops-network
 
-  operations/ops-netserv
-  operations/ops-notary
-  operations/ops-oracles
-  operations/ops-update-corda
+  self
+  ops-netserv
+  ops-notary
+  ops-oracles
+  ops-update-corda

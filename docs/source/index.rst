@@ -40,7 +40,7 @@ We look forward to seeing what you can do with Corda!
 
 .. toctree::
   :hidden:
-  :maxdepth: 2
+  :maxdepth: 1
   :caption: Development
   :name: development
 
@@ -53,7 +53,7 @@ We look forward to seeing what you can do with Corda!
 
 .. toctree::
   :hidden:
-  :maxdepth: 2
+  :maxdepth: 1
   :caption: Operations
   :name: operations
 
@@ -64,16 +64,7 @@ We look forward to seeing what you can do with Corda!
 
 .. toctree::
   :hidden:
-  :maxdepth: 2
-  :caption: The Corda Network
-  :name: tcn
-
-  the-corda-network/index
-  the-corda-network/UAT
-
-.. toctree::
-  :hidden:
-  :maxdepth: 2
+  :maxdepth: 1
   :caption: Participate
   :name: participate
 
