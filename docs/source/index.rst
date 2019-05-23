@@ -1,5 +1,5 @@
-Welcome to Corda !
-==================
+Welcome to Corda!
+=================
 
 `Corda <https://www.corda.net/>`_ is an open-source blockchain platform. If you’d like a quick introduction to blockchains and how Corda is different, then watch this short video:
 
@@ -30,6 +30,7 @@ We look forward to seeing what you can do with Corda!
 
 .. toctree::
   :hidden:
+  :titlesonly:
   :maxdepth: 1
   :name: release
 
@@ -40,6 +41,7 @@ We look forward to seeing what you can do with Corda!
 
 .. toctree::
   :hidden:
+  :titlesonly:
   :maxdepth: 1
   :caption: Development
   :name: development
@@ -53,6 +55,7 @@ We look forward to seeing what you can do with Corda!
 
 .. toctree::
   :hidden:
+  :titlesonly:
   :maxdepth: 1
   :caption: Operations
   :name: operations
@@ -64,6 +67,7 @@ We look forward to seeing what you can do with Corda!
 
 .. toctree::
   :hidden:
+  :titlesonly:
   :maxdepth: 1
   :caption: Participate
   :name: participate
