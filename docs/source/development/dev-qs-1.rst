@@ -1,3 +1,9 @@
+.. highlight:: kotlin
+.. raw:: html
+
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/codesets.js"></script>
+
 Making a state of things
 ========================
 
@@ -17,16 +23,22 @@ This is where states live. States are thing you want to save and be modified by 
 
 2. Ok so you want states to be pretty simple probably I imagine so maybe try writing your state kinda like this:**except not this because IOU sucks**
 
-.. code-block:: kotlin
+.. container:: codeset
 
-  import net.corda.core.identity.Party
+    .. code-block:: kotlin
 
-  class IOUState(val value: Int,
-                 val lender: Party,
-                 val borrower: Party) : ContractState {
-      override val participants get() = listOf(lender, borrower)
-  }
+        import net.corda.core.identity.Party
+
+        class IOUState(val value: Int,
+                       val lender: Party,
+                       val borrower: Party) : ContractState {
+            override val participants get() = listOf(lender, borrower)
+        }
+
 
 This state defines the borrowing and lending entities as Parties on the Corda network, and overrides participants to return a list of the two parties.
 
 3. Save your new state. In most CorDapps, a state will need an associated contract that defines rules for the state as it changes over time. For the purposes of this quickstart we can make do without a contract, but if you'd like to learn more, see <writing contracts> or <cordapp architecture>.
+
+
+-- maybe include a contract so that it really works :))
