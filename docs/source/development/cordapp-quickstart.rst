@@ -1,3 +1,10 @@
+.. highlight:: kotlin
+.. raw:: html
+
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/codesets.js"></script>
+
+
 CorDapp Quickstart
 ==================
 
@@ -27,6 +34,17 @@ To get set up for developing a CorDapp there are a few things you need:
 5. Do that other stuff to get intelliJ set up I can't remember what it is. **this is the bit that actually requires instructions, project setup**
 
 -- try a one-page solution.
+
+.. container:: codeset
+
+    .. code-block:: java
+
+        git clone https://github.com/corda/cordapp-template-java.git ; cd cordapp-template-java
+
+    .. code-block:: kotlin
+
+        git clone https://github.com/corda/cordapp-template-kotlin.git ; cd cordapp-template-kotlin
+
 
 
 1. dev-qs-1 ----- go over ONE PIECE of structure, and code it (e.g. THIS IS A WHERE THE STATE LIVES IN THE PROJECT AND WHAT IT IS, LET'S MAKE IT)
